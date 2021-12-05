@@ -1,12 +1,18 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
+import './sobre.css'
 
 const Sobre = () => {
     return(
-        <>
-        <Menu/>
-        <Footer/>
-        </>
+            <div className="container">
+            <Menu/>
+                <div className="content">
+                    <p className="text-sobre">
+                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    </p>
+                </div>
+            <Footer/>
+            </div>
     )
 }
 

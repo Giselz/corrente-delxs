@@ -3,20 +3,22 @@ import './menu.css'
 
 const Menu = () => {
     return(
-        <ul className="navbar">
-            <li>
-                <Link className="link" to="/">Sobre</Link>
-            </li>
-            <li>
-                <Link className="link" to="/produtos">Produtos</Link>
-            </li>
-            <li>
-                <Link className="link" to="/projetos">Projetos</Link>
-            </li>
-            <li>
-                <Link className="link" to="/apoio">Apoio</Link>
-            </li>
-        </ul>
+        <div className="container-menu">
+            <ul className="navbar">
+                <li>
+                    <Link className="link-a" to="/">Sobre</Link>
+                </li>
+                <li>
+                    <Link className="link-a" to="/produtos">Produtos</Link>
+                </li>
+                <li>
+                    <Link className="link-a" to="/projetos">Projetos</Link>
+                </li>
+                <li>
+                    <Link className="link-a" to="/apoio">Apoio</Link>
+                </li>
+            </ul>
+        </div>
     )
 }
 

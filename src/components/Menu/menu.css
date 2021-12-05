@@ -1,3 +1,12 @@
+.container-menu{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -7,18 +16,60 @@
     margin-top: 0;
 }
 
-.navbar a {
+.navbar .link-a {
     color: #f03a47;
     text-align: center;
     text-decoration: none;
 }
 
-ul li{
+ul{
+    display: flex;
     list-style: none;
-    box-shadow: 0px 0.5px 0px rgb(171, 171, 173);
+    flex-wrap: wrap;
+    user-select: none;
+    pointer-events: none;
 }
 
-.link:hover{
-    color: #460303;
-    transition: linear .4s;
+ul li{
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    pointer-events: all;
+}
+
+.link-a{
+    position: relative;
+}
+
+.link-a::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: rgb(118, 168, 0);
+    left: 50%;
+    bottom: -8px;
+    border-radius: 5px;
+}
+
+li:hover .link-a::before{
+    width: 100%;
+    left: 0;
+    transition: .2 all;
+}
+
+.link-a{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    transition: .2s;
+    font-size: 28px;
+}
+
+ul:hover .link-a{
+    color: #a3a3a3
+}
+
+ul:hover .link-a:hover{
+    color: #424242;
+    text-decoration: solid 1px #f03a47;
 }
