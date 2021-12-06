@@ -1,24 +1,22 @@
-import { Link } from 'react-router-dom'
-import './menu.css'
-
+import { ContainerMenu, Navbar, NavbarList, Link } from './menu.styled'
 const Menu = () => {
     return(
-        <div className="container-menu">
-            <ul className="navbar">
-                <li>
-                    <Link className="link-a" to="/">Sobre</Link>
-                </li>
-                <li>
-                    <Link className="link-a" to="/produtos">Produtos</Link>
-                </li>
-                <li>
-                    <Link className="link-a" to="/projetos">Projetos</Link>
-                </li>
-                <li>
-                    <Link className="link-a" to="/apoio">Apoio</Link>
-                </li>
-            </ul>
-        </div>
+        <ContainerMenu>
+            <NavbarList>
+                <Navbar>
+                    <Link  href="/">Sobre</Link>
+                </Navbar>
+                <Navbar>
+                    <Link  href="/produtos">Produtos</Link>
+                </Navbar>
+                <Navbar>
+                    <Link href="/projetos">Projetos</Link>
+                </Navbar>
+                <Navbar>
+                    <Link  href="/apoio">Apoio</Link>
+                </Navbar>
+            </NavbarList>
+        </ContainerMenu>
     )
 }
 
