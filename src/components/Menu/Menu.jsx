@@ -7,10 +7,10 @@ const Menu = () => {
                     <Link  href="/">Sobre</Link>
                 </Navbar>
                 <Navbar>
-                    <Link  href="/produtos">Produtos</Link>
+                    <Link href="/projetos">Projetos</Link>
                 </Navbar>
                 <Navbar>
-                    <Link href="/projetos">Projetos</Link>
+                    <Link  href="/voluntariado">Voluntariado</Link>
                 </Navbar>
                 <Navbar>
                     <Link  href="/apoio">Apoio</Link>
