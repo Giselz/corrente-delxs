@@ -1,8 +1,8 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import { Container, SectionMain, SectionText, SobreImg, Text } from "./produtos.styled";
+import { Container, SectionMain, SectionText, SobreImg, Text } from "./voluntariado.styled";
 
-const Produtos = () => {
+const Voluntariado = () => {
     return (<> 
         <Container>
             <Menu />
@@ -22,4 +22,4 @@ const Produtos = () => {
         </>);
 }
 
-export default Produtos
+export default Voluntariado

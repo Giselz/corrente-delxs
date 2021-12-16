@@ -24,7 +24,7 @@ export const SobreImg = styled.img`
 `;
 
 export const Text = styled.p`
-    font-size: 25px;
-    color: #f03a47;
+    font-size: 22px;
+    color: #424242;
     padding: 1rem;
 `;
