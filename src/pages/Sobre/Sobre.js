@@ -1,6 +1,6 @@
 import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
-import { Container, SectionMain, SectionText, SobreImg, Text } from "./sobre.styled";
+import { Container, SectionMain, SectionText, SobreImg, Text, TextCard } from "./sobre.styled";
 
 const Sobre = () => {
     return (<> 
@@ -10,7 +10,7 @@ const Sobre = () => {
             <Text>Corrente delxs é um projeto que visa o combate à pobreza menstrual com consciência ambiental e incentivo ao empreendedorismo local.</Text>
         </SectionMain>
         <SectionText>
-            <Text>A pobreza menstrual é a falta de acesso não somente a itens básicos de higiene durante o período de menstruação, mas também a falta de informação, dinheiro para comprar absorvente e, principalmente, falta de apoio.</Text>  
+            <TextCard>A pobreza menstrual é a falta de acesso não somente a itens básicos de higiene durante o período de menstruação, mas também a falta de informação, dinheiro para comprar absorvente e, principalmente, falta de apoio.</TextCard>  
         </SectionText>
         <SectionMain>
             <SobreImg src="https://imgur.com/aOrAnQD.jpg"/>

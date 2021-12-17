@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    //margin: 0 auto;
     margin-top: 50px;
 `;
 
@@ -14,8 +13,10 @@ export const SectionMain = styled.div`
 `;
 
 export const SectionText = styled.div`
-    margin: 0 auto;
-    max-width: 600px;
+    margin: 0 70px;
+    width: 92%;
+    background-color:#780000;
+    color: #FDF0D5;
 `;
 
 export const SobreImg = styled.img`
@@ -27,4 +28,10 @@ export const Text = styled.p`
     font-size: 22px;
     color: #424242;
     padding: 1rem;
+`;
+
+export const TextCard = styled.p`
+    font-size: 22px;
+    color: #FDF0D5;
+    padding: 2rem;
 `;

@@ -1,6 +1,6 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
-import { Container, SectionMain, SectionText, SobreImg, Text } from "./causa.styled";
+import { Container, SectionMain, SobreImg, Text } from "./causa.styled";
 
 const Causa = () => {
     return(

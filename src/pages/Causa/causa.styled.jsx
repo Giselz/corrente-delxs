@@ -13,11 +13,6 @@ export const SectionMain = styled.div`
     padding: 0.7rem;
 `;
 
-export const SectionText = styled.div`
-    margin: 0 auto;
-    max-width: 600px;
-`;
-
 export const SobreImg = styled.img`
     width: 300px;
     height: 300px;
