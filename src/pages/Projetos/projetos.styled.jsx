@@ -25,10 +25,16 @@ export const Text = styled.p`
 export const Card = styled.div`
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid;
+    border: 1px;
     width: 300px;
     margin: 60px;
-    background-color: #780000;
+    background-color: #f03a47;
+    box-shadow: 2px 4px 10px #a3a3a3;
+    border-radius: 32px;
+    &:hover {
+    background-color: #C1121F;
+    transition: linear .5s;
+    }
 `
 
 export const Descricao = styled.p`

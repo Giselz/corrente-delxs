@@ -1,8 +1,11 @@
-import { ContainerMenu, Navbar, NavbarList, Link } from './menu.styled'
+import { ContainerMenu, Navbar, NavbarList, Link, Imagem } from './menu.styled'
 const Menu = () => {
     return(
         <ContainerMenu>
             <NavbarList>
+                <Navbar>
+                    <Imagem src="https://imgur.com/izkwdkN.jpg"></Imagem>
+                </Navbar>
                 <Navbar>
                     <Link  href="/">Sobre</Link>
                 </Navbar>

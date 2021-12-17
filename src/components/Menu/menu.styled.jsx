@@ -32,6 +32,11 @@ export const Link = styled.a`
     text-decoration: none;
     cursor: pointer;
     &:hover {
-    color: #424242;
+    color: #C1121F;
 }
+`;
+
+export const Imagem = styled.img`
+    width: 50px;
+    height: 50px;
 `;

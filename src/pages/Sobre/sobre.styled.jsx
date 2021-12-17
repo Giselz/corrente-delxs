@@ -15,7 +15,7 @@ export const SectionMain = styled.div`
 export const SectionText = styled.div`
     margin: 0 70px;
     width: 92%;
-    background-color:#780000;
+    background-color:#C1121F;
     color: #FDF0D5;
 `;
 
