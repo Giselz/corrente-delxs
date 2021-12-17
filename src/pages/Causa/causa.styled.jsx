@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    //margin: 0 auto;
+    margin: 0 auto;
     margin-top: 50px;
 `;
 
@@ -10,7 +10,7 @@ export const SectionMain = styled.div`
     flex-direction: row;
     margin: 0 auto;
     max-width: 600px;
-    padding: 1rem;
+    padding: 0.7rem;
 `;
 
 export const SectionText = styled.div`
@@ -26,5 +26,5 @@ export const SobreImg = styled.img`
 export const Text = styled.p`
     font-size: 22px;
     color: #424242;
-    padding: 1rem;
+    //padding: 1rem;
 `;

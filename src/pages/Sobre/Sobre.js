@@ -7,15 +7,14 @@ const Sobre = () => {
     <Container>
         <Menu />
         <SectionMain>
-            <SobreImg src="https://th.bing.com/th/id/OIP.44XYxV_YHwjHz0RyC0XaMAHaEc?pid=ImgDet&rs=1"/>
-            <Text>aaaaaaaaaaaaaaaaaaaaaaaaaa</Text>
+            <Text>Corrente delxs é um projeto que visa o combate à pobreza menstrual com consciência ambiental e incentivo ao empreendedorismo local.</Text>
         </SectionMain>
         <SectionText>
-            <Text>aaaaaaaaaaaaaaaaaaaaaaaaaa</Text>
+            <Text>A pobreza menstrual é a falta de acesso não somente a itens básicos de higiene durante o período de menstruação, mas também a falta de informação, dinheiro para comprar absorvente e, principalmente, falta de apoio.</Text>  
         </SectionText>
         <SectionMain>
-            <SobreImg src="https://th.bing.com/th/id/OIP.44XYxV_YHwjHz0RyC0XaMAHaEc?pid=ImgDet&rs=1"/>
-            <Text>aaaaaaaaaaaaaaaaaaaaaaaaaa</Text>
+            <SobreImg src="https://imgur.com/aOrAnQD.jpg"/>
+            <Text>Por conta disso, a Corrente delxs vem para mostrar que podemos combater a pobreza menstrual de forma ecológica e gerando renda para a população local com a produção de calcinhas e absorventes reutilizáveis.</Text>
         </SectionMain>
     <Footer />
     </Container>
