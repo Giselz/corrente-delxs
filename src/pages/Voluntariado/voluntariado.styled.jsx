@@ -5,52 +5,30 @@ export const Container = styled.div`
     margin-top: 50px;
 `;
 
-export const SectionMain = styled.div`
+export const Content = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     max-width: 600px;
-    padding: 1rem;
-`;
-
-export const SectionText = styled.div`
-    margin: 0 auto;
-    max-width: 600px;
+    padding: 2rem;
 
 `;
 
-export const SobreImg = styled.img`
-    width: 200px;
-    height: 200px;
-`;
+export const SectionMain = styled.div`
+    padding-top: 1.2rem;
+    min-height: 33.3vw;
+`
 
 export const Text = styled.p`
     font-size: 21px;
     color: #424242;
-    padding: 1rem;
     text-align: center;
 `;
 
-export const SectionMainH1 = styled.p`
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 1rem;
-    font-size: 25px;
-    color: #424242;
-    text-shadow: 0.035em 0.045em #a3a3a3;
-`;
-
-export const TextH1 = styled.p`
-    font-size: 25px;
-    color: #424242;
-    padding: 1rem;
-`;
-
 export const Botao = styled.a`
-    margin-left: 10px;
     display: flex;
+    margin-left: 10px;
     gap: 0.25rem;
     align-items: center;
     background: #c9c9c9;
@@ -59,17 +37,18 @@ export const Botao = styled.a`
     border: 0;
     color: #f03a47;
     text-decoration: none;
+    padding: 0.5rem 2rem;
     &:hover {
     background-color: #a3a3a3;
     transition: linear .5s;
     }
 `;
 
-export const SectionButton = styled.div`
+export const Button = styled.div`
     font-weight: 600;
     color: #424242;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 14px;
 `;
