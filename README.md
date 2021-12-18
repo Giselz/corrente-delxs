@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Projeto final da Reprograma 🎉
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Olá pessoas do futuro, este é o meu projeto final da Reprograma feito durante o bootcamp de Front-end! 💜
 
-## Available Scripts
+Foram utilizadas durante o desenvolvimento: HTML, Styled Components, JavaScript, React, Canva para a criação da logo e várias pesquisas para a criação do conteúdo 👩🏽‍💻
 
-In the project directory, you can run:
+## Sobre o projeto
 
-### `yarn start`
+Neste projeto foi feito um site para uma instituição, fictícia, que combate à pobreza menstrual com consciência ambiental e incentivo ao empreendedorismo. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto possui quatro pages que são:
+  - Sobre, falando um pouco sobre a visão geral da instituição; 
+  - Causa, explica as causas do problema e o motivo da pauta da instituição;
+  - Projetos, área com os cards dos projetos da instituição, como ela se divide nas operações;
+  - Voluntariado, espaço para as pessoas voluntariadas se candidatarem. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Passo a passo do projeto
 
-### `yarn test`
+ 1. Criei um projeto react;
+ 2. Excluí as informações default;
+ 3. Criei o component Menu e Footer (html, styled component);
+ 4. Criei as pages e a routes;
+ 5. Adicionei uma database com a informação dos projetos da instituição na page Projetos;
+ 6. Adicionei o redirects na pasta public, necessária para o deploy no netlify;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Nota: teve interesse e quer dar uma olhada no código? é só forkar! 💜**
 
-### `yarn build`
+**Nota2: teve interesse na temática e quer desenvolver algo em conjunto? Vamos nos conectar! 💜**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Vamos nos conectar!!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+→ [Linkedin](https://www.linkedin.com/in/gisele-dos-santos-5b0617203/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+→ [Site do projeto](https://corrente-delxs.netlify.app/).
